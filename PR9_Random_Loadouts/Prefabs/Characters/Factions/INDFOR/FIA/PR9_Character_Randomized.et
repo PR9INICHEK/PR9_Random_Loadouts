@@ -1,0 +1,66 @@
+SCR_ChimeraCharacter : "{8515E8BD26A5D5F8}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Randomized.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{60F6DBAA196151FD}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{60F6DBAA18241624}" {
+      m_sVariantPrefab "{A2A50DDC0D93BB68}Prefabs/Characters/Factions/INDFOR/FIA/PR9_Character_Randomized_1.et"
+      m_iRandomizerWeight 11
+     }
+     SCR_EditableEntityVariant "{60F6DBAA18193D3E}" {
+      m_sVariantPrefab "{CEF1393CB1573446}Prefabs/Characters/Factions/INDFOR/FIA/PR9_Character_Randomized_2.et"
+      m_iRandomizerWeight 4
+     }
+     SCR_EditableEntityVariant "{60F6DBAA180B438E}" {
+      m_sVariantPrefab "{2B6D75C5BDB2A32D}Prefabs/Characters/Factions/INDFOR/FIA/PR9_Character_Randomized_3.et"
+      m_iRandomizerWeight 3
+     }
+     SCR_EditableEntityVariant "{60F6DBAA18FE69E3}" {
+      m_sVariantPrefab "{165950FDC8DE2A1A}Prefabs/Characters/Factions/INDFOR/FIA/PR9_Character_Randomized_4.et"
+      m_iRandomizerWeight 14
+     }
+     SCR_EditableEntityVariant "{60F6DBAA18EEDF36}" {
+      m_sVariantPrefab "{F3C51C04C43BBD71}Prefabs/Characters/Factions/INDFOR/FIA/PR9_Character_Randomized_5.et"
+      m_iRandomizerWeight 10
+     }
+     SCR_EditableEntityVariant "{60F6DBAA18C30F94}" {
+      m_sVariantPrefab "{9F9128E478FF325F}Prefabs/Characters/Factions/INDFOR/FIA/PR9_Character_Randomized_6.et"
+      m_iRandomizerWeight 5
+     }
+     SCR_EditableEntityVariant "{60F6DBAA2FD1F6C0}" {
+      m_sVariantPrefab "{7A0D641D741AA534}Prefabs/Characters/Factions/INDFOR/FIA/PR9_Character_Randomized_7.et"
+      m_iRandomizerWeight 4
+     }
+     SCR_EditableEntityVariant "{60F6DBAA2D63151A}" {
+      m_sVariantPrefab "{E5F9629492262031}Prefabs/Characters/Factions/INDFOR/FIA/PR9_Character_Randomized_8.et"
+      m_iRandomizerWeight 9
+     }
+     SCR_EditableEntityVariant "{60F6DBAA578EAA17}" {
+      m_sVariantPrefab "{00652E6D9EC3B75A}Prefabs/Characters/Factions/INDFOR/FIA/PR9_Character_Randomized_9.et"
+      m_iRandomizerWeight 2
+     }
+     SCR_EditableEntityVariant "{622B1309C7853F5E}" {
+      m_sVariantPrefab "{24D16542AABCE5E9}Prefabs/Characters/Factions/INDFOR/FIA/PR9_Character_Randomized_10.et"
+     }
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{554D761A11D3D7EC}Prefabs/Characters/HeadGear/Hat_TruckerCap_01/Hat_TruckerCap_01_sawmillregina.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab ""
+    }
+    LoadoutSlotInfo Pants {
+     Prefab ""
+    }
+    LoadoutSlotInfo Boots {
+     Prefab ""
+    }
+   }
+  }
+ }
+}

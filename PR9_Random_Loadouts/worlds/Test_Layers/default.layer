@@ -1,0 +1,23 @@
+SCR_BaseGameMode GameMode_Plain1 : "{1B76F75A3175E85C}Prefabs/MP/Modes/Plain/GameMode_Plain.et" {
+ coords 116.701 1 116.049
+}
+SCR_FactionManager FactionManager_Editor1 : "{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionManager_Editor.et" {
+ coords 115.709 1 114.568
+ Factions {
+  SCR_Faction "{56DEAC40D132400B}" {
+   m_bIsPlayable 1
+  }
+ }
+}
+SCR_SpawnPoint : "{2B1758F237E4820E}Prefabs/MP/Spawning/SpawnPoint_FIA.et" {
+ coords 10.938 1.001 228.773
+}
+SCR_LoadoutManager : "{D8D9351AB3595EB1}Prefabs/MP/Managers/Loadouts/PR9_LoadoutManager_Random.et" {
+ coords 118.519 1 110.438
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{622B130EE08B0127}" {
+   m_sLoadoutResource "{27F402BDD2E12456}Prefabs/Characters/Factions/INDFOR/FIA/PR9_Character_Randomized.et"
+   m_sAffiliatedFaction "FIA"
+  }
+ }
+}

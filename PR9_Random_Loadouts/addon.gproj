@@ -1,0 +1,8 @@
+GameProject {
+ ID "PR9RandomLoadouts"
+ GUID "622B130A0EB21C8F"
+ TITLE "PR9_Random_Loadouts"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}
